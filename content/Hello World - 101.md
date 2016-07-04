@@ -18,7 +18,7 @@ So I looked into the alternatives and found this awesome static site generator [
 
 ## Creating a separate github account
 
-I already have one [website](https://mechanicalcoder.github.io) running from my [main github account](https://github.com/mechanicalcoder). Earlier I thought I could serve my techblog from the same repository by creating a sub-folder but ghpages could generate the webpage. Github is quite smart to know that the website files lie within the <i>output</i> folder.
+I already have one [website](https://mechanicalcoder.github.io) running from my [main github account](https://github.com/mechanicalcoder). Earlier I thought I could serve my techblog from the same repository by creating a sub-folder but ghpages couldn't generate the webpage. Github is quite smart to know that the website files lie within the <i>output</i> folder.
 
 So I had to make a [separate Github account](https://github.com/mechandansinha) where I could push just the <i>output</i> folder in the repository named <i> username.github.io </i>.
 
@@ -26,7 +26,7 @@ Apart from the generated output, you can also find the entire blog repository on
 
 ## Setting up
 
-I won't mention all the things that I did to setup my blog as it has already been extensively written in many blog posts. Refer to the resources below.After I was through with [quickstart](docs.getpelican.com/en/3.6.3/quickstart.html), I initialized git inside my <i>output</i> folder. Also I added my github repository as 'remote'.
+I won't mention all the things that I did to setup my blog as it has already been extensively written in many blog posts. Refer to the resources below. After I was through with [quickstart](docs.getpelican.com/en/3.6.3/quickstart.html), I initialized git inside my <i>output</i> folder. Also I added my github repository as 'remote'.
 
 ```sh
 $ cd output
@@ -46,16 +46,18 @@ I would definitely suggest reading the [pelican docs](http://docs.getpelican.com
 
 I'm using **Flex** in my blog. I went through almost 40 themes to finally settle with this one. To understand how can I utilize the various customizations this themes offer, [Flex wiki](https://github.com/alexandrevicenzi/Flex/wiki) page was extremely useful. They have shown it with examples as well. 
 
-There's just one thing to be taken care of. Whatever editing is to be done, we do it in <i>pelicaconf.py</i> file. All the variables would be defined there.
+There's just one thing to be taken care of. Whatever editing is to be done, we do it in <i>pelicanconf.py</i> file. All the variables would be defined there.
 
 ## Disqus Integration
 
-Disqus provides a sophisticated platform for discussing through comments. Disqus integration was really easy as I just had to create one disqus account and follow their procedures to create a channel for my website. Then you just have to include your disqus sitename (this can't be changed afterwards) under DISQUS_SITENAME in the configuration file.
+Disqus provides a sophisticated platform for discussion through comments. Disqus integration was really easy as I just had to create one disqus account and follow their procedures to create a channel for my website. 
+
+Then you just have to include your disqus sitename (this can't be changed afterwards) under DISQUS_SITENAME in the configuration file.
 
 ## Let's get started
 
-I am really excited to finally have a separate techblog. Hope you would find this interesting. Stay tuned and keep reading about my journey through technical extravaganza of **_making things that matter_**.
+I am really excited to finally have a separate techblog. Hope you would find this space interesting. Stay tuned and keep reading about my journey through technical extravaganza of **_making things that matter_**.
 
-If you're a complete beginner & interested in knowing what exactly did I write in Markdown for this post, here is the markdown gist for you. Enjoy!
+If you're a complete beginner & interested in knowing what exactly did I write in markdown for this post, here is the gist for you. Enjoy!
 
 <script src="https://gist.github.com/MechanicalCoder/576c2f2e33f6abd758d97dbf7ae35fa9.js"></script>
