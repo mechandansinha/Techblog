@@ -14,8 +14,10 @@ SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Asia/Kolkata'
+PLUGIN_PATHS = ['pelican-plugins/']
+PLUGINS = ['better_figures_and_images', 'render_math']
 
+TIMEZONE = 'Asia/Kolkata'
 DEFAULT_LANG = u'en'
 DEFAULT_DATE = u'fs'
 
@@ -28,9 +30,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Website', 'https://mechanicalcoder.github.io/'),
-         ('Contact', '/pages/contact.html'),
-         ('Portfolio', '/pages/porfolio.html'),)
+LINKS = (('Website', 'https://mechanicalcoder.github.io/'),)
 
 # Social widget
 SOCIAL = (('envelope-o','mailto:me13b1009@iith.ac.in'),

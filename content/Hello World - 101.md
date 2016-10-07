@@ -26,7 +26,7 @@ Apart from the generated output, you can also find the entire blog repository on
 
 ## Setting up
 
-I won't mention all the things that I did to setup my blog as it has already been extensively written in many blog posts. Refer to the resources below. After I was through with [quickstart](docs.getpelican.com/en/3.6.3/quickstart.html), I initialized git inside my <i>output</i> folder. Also I added my github repository as 'remote'.
+I won't mention all the things that I did to setup my blog as it has already been extensively written in many blog posts. Refer to the resources below. After I was through with [quickstart](https://docs.getpelican.com/en/3.6.3/quickstart.html), I initialized git inside my <i>output</i> folder. Also I added my github repository as 'remote'.
 
 ```sh
 $ cd output
